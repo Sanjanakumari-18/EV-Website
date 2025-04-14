@@ -1,28 +1,12 @@
-# EV-olution
+# React + Vite
 
-EV-olution is a modern and responsive landing page built using React, Vite, and Tailwind CSS. This project showcases a concept electric vehicle website with smooth design, navigation, and user interaction.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Responsive design compatible with all screen sizes
-- Clean and minimal user interface
-- Modular React component structure
-- Sections for Home, Explore, About, and Contact
-- Call-to-action buttons and image-based hero section
-- Smooth scrolling and hover effects
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Technologies Used
+## Expanding the ESLint configuration
 
-- React
-- Vite
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-
-## Installation
-
-To run this project locally:
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/Sanjanakumari-18/EV-Website.git
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
